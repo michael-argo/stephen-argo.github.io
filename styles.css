@@ -246,6 +246,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 	width:800px;
 	height:600px;
 }
+@media (max-width:800px){.mySlides > img {width:400px;height:300px}}
+
 img {vertical-align: middle;}
 
 /* Slideshow container */
@@ -344,3 +346,8 @@ img {vertical-align: middle;}
 .proj-container:hover .proj-text{
 	opacity:1;
 }
+.logo{
+	width:35%;
+}
+@media (max-width:800px){.logo{width:70%}}
+
